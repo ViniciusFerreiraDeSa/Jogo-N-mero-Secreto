@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+:root{
+    --Fonte: 'Inter', sans-serif;
+    --cor-primaria: #1C1D21 ;
+    --cor-secundaria: #092389;
+    --branco: #ffff;
+    --cor-texto-anya: #FF1100;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to bottom, var(--cor-primaria), var(--cor-secundaria));
+    background-attachment: fixed;
+    color: var(--branco);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--Fonte);
+}
+
+h1{
+    font-size: 3.5em;
+    
+}
+h2{
+    font-size: 3em;
+}
+h3{
+    font-size: 2em;
+    margin-top: 15px;
+}
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+.box{
+    border: 3px solid var(--cor-primaria);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 10px 7px var(--cor-primaria);
+}
+.btn-jogar{
+    padding: 8px 15px;
+    border: 0;
+    background-color: var(--cor-primaria);
+    border-radius: 5px ;
+    margin-top: 20px;
+    color: var(--branco);
+
+}
